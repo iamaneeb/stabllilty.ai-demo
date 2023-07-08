@@ -243,6 +243,7 @@ li .sign-button:hover{
     font-weight: 400;
 }
 
+
 /* =====================CLICK BORED========================= */
 .click-bored{
     display: grid;
@@ -810,4 +811,247 @@ footer .social-media-icons i:hover{
         margin-top: 2rem;
     }
 
-}
+    @media screen and (max-width: 420px) {
+        .container{
+            height: 70vh;
+        }
+        nav .logo p{
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+        .home .headline h1{
+            font-size: 1.8rem;
+            font-weight: 600;
+    
+        }
+        .home .para{
+            margin-top: 1rem;
+        }
+        .home .para p{
+            font-size: 0.8rem;
+
+        }
+        .home .buttons{
+            margin-top: 2rem;
+        
+        }
+        .buttons .try{
+            font-size: 11px;
+            font-weight: 400;
+            padding: 13px 30px;
+        }
+        .buttons .dive{
+            font-size: 11px;
+            font-weight: 400;
+            padding: 13px 30px;
+        }
+        .heading h1{
+            font-size: 1.3rem;
+    
+        }
+        .heading p{
+            font-size: 0.8rem;
+        }
+        .heading{
+            margin-left: 2rem;
+        }
+        .model{
+            height: 50vh;
+        }
+        .model .diffusion{
+            margin-top: 2rem;
+            height: 30vh;
+            gap: 3rem;
+            margin-left: 2rem;
+            margin-bottom: 16rem;
+    
+            
+        }
+        .diffusion .images{
+            margin-top: 7rem;
+            margin-left: 2rem;
+            display: none;
+        }
+        .diffusion .details{
+            margin-top: 2rem;
+            margin-left: 1.5rem;
+        }
+        .details p:first-child{
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        .details p:nth-child(2){
+            margin-top: 1rem;
+            font-size: 0.8rem;
+            font-weight: 300px;
+        }
+        .details .buttons{
+            margin-right: 2rem;
+            margin-top: 2rem;
+            
+        }
+        .product{
+            height: 50vh;
+        }
+        .product .heading{
+            margin-left: 2rem;
+        }
+        .product .heading p{
+            margin-top: 1rem;
+        }
+        .dreamstudio .images{
+            margin-left: 2rem;
+            display: none;
+        }
+      
+        .product .dreamstudio{
+            gap: 2rem;
+            height: 25vh;
+            margin-left: 2rem;
+            margin-top: 1rem;
+            justify-content: start;
+    
+        }
+
+        .dreamstudio .details{
+            margin-top: 2rem;
+        
+        }
+        .product .dreamstudio .buttons{
+            margin-top: 1.5rem;
+            justify-content: start;
+            
+        }
+        
+        .click-bored {
+            grid-template-columns: repeat(1,1fr);
+            gap: 1.2rem;
+            margin: 0;
+            margin-left: 2rem;
+            margin-top: 0;
+    
+        }
+        .click-bored .clip{
+            width: 80vw;
+            height: 200px;
+        }
+        .clip p:first-child{
+            font-size: 1.4rem;
+            
+        
+        }
+        .clip p:nth-child(2){
+            font-size: 0.7rem;
+        
+        }
+        .clip .buttons{
+            margin-top: 1rem;
+            margin-bottom: 0;
+            justify-content: start;
+    
+        }
+        .clip p:nth-child(2){
+            margin-top: 0rem;
+   
+        
+        }
+        .community{
+            margin-top: 4rem;
+        }
+        .community h1{
+            font-size: 0.9rem;
+            margin-bottom: 1.3rem;
+        }
+        .community p:nth-child(2){
+            font-size: 0.6rem;
+            margin-bottom: 0rem;
+    
+        }
+        .community p:nth-child(3){
+            font-size: 0.5rem;
+        }
+        .community .buttons button{
+            margin-top: 1rem;
+    
+        }
+        .community .buttons{
+            gap: 0.5rem;
+        }
+        .learnmore{
+            grid-template-columns: repeat(1,1fr);
+            row-gap: 1rem;
+            margin-top: 5rem;
+            margin-left: 2rem;   
+        }
+       
+        .learnmore .box{
+            height: 250px;
+            width: 80vw;
+    
+        }
+        .learnmore .box .images{
+            height: 80px;
+            width: 80px;
+            margin-left: 7.5rem;
+            margin-top: 1rem;
+        }
+        .box h1{
+            font-size: 18px;
+            margin-bottom: 0.6rem;
+        }
+        .box p{
+            font-size: 0.7rem;
+            margin-bottom: 1rem;
+        }
+       
+        .box .buttons button{
+            margin-top: 0rem;
+        }
+        .join h1{
+            font-size: 1.1rem;
+            margin-bottom: 0.4rem;
+        }
+        .join p:nth-child(2){
+            font-size: 0.7rem;
+            margin: bottom 0rem;
+        }
+        .join .sign-email{
+            margin-top: 0.6rem;
+        
+        }
+        .sign-email input{
+            font-size: 0.8rem;
+            padding: 0.8rem 1rem;
+        }
+        .sign-email button{
+            padding: 0.9rem 28px;
+            font-size: 11px;
+            font-weight: 500;
+        }
+        .join p:nth-child(4){
+            max-width: 21rem;
+            margin-left: 2rem;
+            font-size: 0.5rem;
+            margin-top: 0.2rem;
+            
+        }
+        footer{
+            height: 35vh;
+        }
+        footer .all-in-one{
+            gap: 2.3rem;
+            margin-top: 3rem;
+        }
+        .all-in-one ul li{
+            margin-bottom: 4px;
+            font-size: 11px;
+        }
+        .all-in-one .contact ul li{
+            margin-bottom: 15px;
+        }
+        footer .social-media-icons{
+            margin-bottom: 0rem;
+
+        }
+
+}}
